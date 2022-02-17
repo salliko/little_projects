@@ -43,7 +43,7 @@ def _walk_trees(l_tree, r_tree):
 
 def is_equal(left: str, right: str) -> bool:
     """
-    equal(left: str, right: str)
+    equal(left: str, right: str) -> bool
     Функция принимает два объекта json и возвращает True, если объекты одинаковые.
     """
     l_left = json.loads(left)
